@@ -1,0 +1,25 @@
+#include <iostream>
+#include <fstream>
+#include <cstdlib>
+#include <string>
+#include <iomanip>
+using namespace std;
+int main()
+{
+    double GroundSnow;
+    string WindExposure;
+    string SnowExposure;
+    cout << "Enter the ground snow load: ";
+    cin >> GroundSnow;
+    cout << "The ground snow load is: " << GroundSnow << endl;
+
+    cout << "Enter the wind exposure: C, B, D ";
+    cin >> WindExposure;
+    cout << "The wind exposure is: " << WindExposure << endl;
+
+    cout << "Enter the snow exposure: ";
+    cin >> SnowExposure;
+    cout << "The snow exposure is: " << SnowExposure << endl;
+
+    return 0;
+}
